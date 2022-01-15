@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
 	<link rel="shortcut icon" href="{% static 'mainpage/images/logo.ico' %}" />
-	<title>Web Developer</title>
+	<title>Ganesh Arumugam</title>
 
 	<!-- CSS -->
 	<link href="{% static 'mainpage/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" media="screen">
@@ -47,10 +47,17 @@
 
 	<section id="home" class="pfblock-image screen-height">
     <div class="home-overlay"></div>
+	
+		
 		<div class="intro">
-			<div class="start">Hello, my name is Vlad Moroshan and I am</div>
-			<h1>Full-Stack Web Developer</h1>
-			<div class="start">creating modern and responsive Web Application</div>
+			<p style = "color: white; "class="lead text-muted">Hello, I'm</p>
+			<h1>Ganesh Arumugam</h1>
+			<div class="row py-lg-5">
+				<div class="col-lg-6 col-md-8 mx-auto" style="float:none;margin:auto;">
+			<div class="lead text-muted">|   Backend Developer   |   Python Django   |   AWS   |</div>
+		</div></div>
+
+		</div>
 		</div>
 
 		<a href="#services">
@@ -79,14 +86,14 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">Vlad Moroshan</a>
+					<a class="navbar-brand" href="index.html">Ganesh Arumugam</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#home">Home</a></li>
 						<li><a href="#services">About me</a></li>
-            <li><a href="#portfolio">Works</a></li>
+            <li><a href="#work">Works</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -105,33 +112,39 @@
 	<section id="services" class="pfblock pfblock-gray">
 		<div class="container">
 			<div class="row">
-
-				<div class="col-sm-8">
-
+				<h2 class="pfblock-title">ABOUT ME</h2>
+				<div class="pfblock-line"></div>
+				<div class="pfblock-header wow fadeInUp">
+					<img id="myphoto" src="{% static 'mainpage/images/me.jpg' %}" alt="Vladislav Moroshan" style="border-radius: 100%;overflow : hidden; ">
+				</div>
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">ABOUT ME</h2>
-						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							<p>I enjoy building everything from small business sites and landing pages to portfolio themes and rich interactive web apps. I love creating visually stunning and responsive websites. I always try to combine aesthetic with functional aspects, looking for the right balance to communicate without annoying.</p>
-							<p>Programming is a true passion of mine and that passion continually grows with every meaningful tech-related conversation I have, with every moment of clarity as I finally figure out a nagging issue on a project, and with every new concept, language, or framework I delve into.</p>
-							<p>I enjoy the collaborative nature of working on a team building a product. The feedback, discussion, and review in this environment brings out the best in each individual member, and is a crucial component in my own personal development. I'm ready to jump onto a supportive team and begin contributing.</p>
+							<p>Hi, I'm a Backend Developer with 1+ years of experience who is comfortable working with Python, Django, Javascript, HTML/CSS, responsive web design and AWS environment to delivery exceptional customer experience.</p>
+							<p>I also passionate in solving problems in leetcode. I completed my graduation in B.Tech Information Technology on 2020.</p>
+							<br>
+							<br>
 
- 							<a href="https://drive.google.com/file/d/0B4mqctkjXG0iclRXd2JJMGtYZFE/view?usp=sharing" target="_blank" id="resume-effect"><i class="fa fa-3x fa-file-text-o" aria-hidden="true"></i> Click to view my resume.</a>
+ 							<a href="https://drive.google.com/file/d/1cBU_1XnscfpVRpnnB_xBMgPcwzEzlkwV/view?usp=sharing"  target="_blank" id="resume-effect"><button class="btn btn-dark btn-rounded" style="background-color: black;">Click to view my Resume</button> </a>
 						</div>
 					</div>
-				</div>
+				
 
-				<div class="col-sm-4">
-					<div class="pfblock-header wow fadeInUp">
-						<img id="myphoto" src="{% static 'mainpage/images/me.jpg' %}" alt="Vladislav Moroshan" style="border-radius: 100%;filter:grayscale(30%);">
-					</div>
-				</div>
+				
+					
+				
 		</div><!-- .container -->
 
 		<div class="skills col-xs-12">
 				<h2 class="pfblock-title">MY SKILLS</h2>
 				<div class="pfblock-line"></div>
-
+				<div class="row">
+					<div  class="devicon-python-plain  col-xs-15"><span>PYTHON</span></div>
+					<div  class="devicon-django-plain  col-xs-15"><span>DJANGO</span></div>
+					<div  class="devicon-mysql-plain  col-xs-15"><span>MY SQL</span></div>
+					<div  class="devicon-amazonwebservices-plain-wordmark  col-xs-15"><span>AWS</span></div>
+					<div  class="devicon-android-plain  col-xs-15"><span>ANDROID STUDIO</span></div>
+					
+				</div>
 				<div class="row">
 					<div  class="devicon-html5-plain  col-xs-15"><span>HTML</span></div>
 					<div  class="devicon-css3-plain   col-xs-15"><span>CSS</span></div>
@@ -139,76 +152,164 @@
 					<div  class="devicon-jquery-plain col-xs-15"><span>JQUERY</span></div>
 					<div  class="devicon-javascript-plain  col-xs-15"><span>JAVASCRIPT</span></div>
 				</div>
-				<div class="row">
-					<div  class="devicon-d3js-plain  col-xs-15"><span>D3</span></div>
-					<div  class="devicon-react-original  col-xs-15"><span>REACT</span></div>
-					<div  class="devicon-nodejs-plain  col-xs-15"><span>NODE</span></div>
-					<div  class="devicon-python-plain  col-xs-15"><span>PYTHON</span></div>
-					<div  class="devicon-django-plain  col-xs-15"><span>DJANGO</span></div>
-				</div>
+				
 
 			</div>
 		</div>
 	</section>
 
 	<!-- Services end -->
-
-
-	<!-- Portfolio start -->
-
-	<section id="portfolio" class="pfblock">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6 col-sm-offset-3">
-
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">My works</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-
-						</div>
-					</div>
-
+	<!-- Exp -->
+	<section id = "work">
+	<div class="container">
+		<div class="page-header">
+			<h1 id="timeline" style="text-align : center;">WORK EXPERIENCE</h1>
+		</div>
+		<ul class="timeline">
+			<li>
+			  <div class="timeline-badge"><i class="glyphicon glyphicon-briefcase"></i></div>
+			  <div class="timeline-panel">
+				<div class="timeline-heading">
+				  <h4 class="timeline-title">ANDROID DEVELOPMENT</h4>
+				  <p><small class="text-muted"><i class="glyphicon glyphicon-hourglass"></i>May 2019 - July 2019</small></p>
 				</div>
-
-			</div><!-- .row -->
-
-			<div class="row">
-				{% for project in list_projects|slice:":2" %}
-					<div class="card col-xs-12 col-sm-5 col-md-5">
-							<div class="grid wow zoomIn">
-
-								<figure class="effect-bubba"><a href="{{ project.url }}" target="_blank">
-									{% with 'mainpage/images/'|add:project.img_name as image_static %}
-											<img class="card-img-top" src="{% static image_static %}"></a>
-									{% endwith %}
-								</figure>
-
-								<div class="card-block">
-									<h2 class="card-title">{{ project.title }}</h2>
-									<p class="card-text">{{ project.description }}</p>
-									<div class="tools">
-										{% for tool in project.tools.split %}
-											<span>{{ tool }}</span>
-										{% endfor %}
-									</div>
-								</div>
-
-							</div>
-						</div>
-					{% endfor %}
+				<div class="timeline-body">
+<p>Developed an android application with wifi broadcast receiver during the intern at TabSquare InfoTech Pvt Ltd</p>
 				</div>
-		</div><!-- .contaier -->
+			  </div>
+			</li>
+			<li class="timeline-inverted">
+			  <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+			  <div class="timeline-panel">
+				<div class="timeline-heading">
+				  <h4 class="timeline-title">WEB APP</h4>
+				  <p><small class="text-muted"><i class="glyphicon glyphicon-hourglass"></i>Dec 2019 - Mar 2020</small></p>
+				</div>
+				<div class="timeline-body">
+<p>Worked as a junior web developer for 4 months at Gold n' Bell Technologies.</p>
+<p>Worked on various Django mini projects like implementing google OAuth credentials in web apps, and Authenticating Users with valid credentials using MYSQL database and Firebase Database.</p>
+				</div>
+			  </div>
+			</li>
+			<li>
+			  <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+			  <div class="timeline-panel">
+				<div class="timeline-heading">
+				  <h4 class="timeline-title">SYSTEM ENGINEER</h4>
+				  <p><small class="text-muted"><i class="glyphicon glyphicon-hourglass"></i>Jan 2021 - Current</small></p>
+				</div>
+				<div class="timeline-body">
+<p>System Engineer in TCS with 1+ years of experience in python development. currently working as a part of agile scrum team on various renovation tasks on Python and Java projects for Morgan Stanley. Worked on migrating services and API's to new server, E3 java library upgrade, password rotations</p>				</div>
+			  </div>
+			</li>
+			
+		</ul>
+	</div>
+	<!-- Exp end-->
 
-	</section>
+	<!-- Certification -->
+	<div class="container">
+		<div class="page-header">
+			<h1 id="timeline" style="text-align : center;">CERTIFICATION</h1>
+		</div>
+		<ul class="timeline">
+			<li>
+			  <div class="timeline-badge"><i class="glyphicon glyphicon-briefcase"></i></div>
+			  <div class="timeline-panel">
+				<div class="timeline-heading">
+				  <h4 class="timeline-title">UDEMY</h4>
+				  <p><small class="text-muted"><i class="glyphicon glyphicon-hourglass"></i>Jun 2020</small></p>
+				</div>
+				<div class="timeline-body">
+<p>Completed "AWS developer associate" course in UDEMY.</p>
+<p>Completed "Django developer" course in UDEMY.</p>
+				</div>
+			  </div>
+			</li>
+			<li class="timeline-inverted">
+			  <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+			  <div class="timeline-panel">
+				<div class="timeline-heading">
+				  <h4 class="timeline-title">LinkedIn Learning</h4>
+				  <p><small class="text-muted"><i class="glyphicon glyphicon-hourglass"></i>Mar 2020</small></p>
+				</div>
+				<div class="timeline-body">
+<p>Completed "Python data structure and Algorithms" course in LinkedIn Learning.</p>
+				</div>
+			  </div>
+			</li>
+			<li>
+			  <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+			  <div class="timeline-panel">
+				<div class="timeline-heading">
+				  <h4 class="timeline-title">ORACLE</h4>
+				  <p><small class="text-muted"><i class="glyphicon glyphicon-hourglass"></i>Oct 2017</small></p>
+				</div>
+				<div class="timeline-body">
+<p>Completed Oracle "Java Fundamentals and programming" certification in October 2017</p>
+				</div>
+			</li>
+			
+		</ul>
+	</div>
+	<!-- Certification end-->
+
+	<!-- Edu -->
+	<div class="container">
+		<div class="page-header">
+			<h1 id="timeline" style="text-align : center;">EDUCATION</h1>
+		</div>
+		<ul class="timeline">
+			<li>
+			  <div class="timeline-badge"><i class="glyphicon glyphicon-briefcase"></i></div>
+			  <div class="timeline-panel">
+				<div class="timeline-heading">
+				  <h4 class="timeline-title">SSLC</h4>
+				  <p><small class="text-muted"><i class="glyphicon glyphicon-hourglass"></i>2013-2014</small></p>
+				</div>
+				<div class="timeline-body">
+<p>Completed SSLC with 93% from Besant Theosophical Hr School</p>
+				</div>
+			  </div>
+			</li>
+			<li class="timeline-inverted">
+			  <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+			  <div class="timeline-panel">
+				<div class="timeline-heading">
+				  <h4 class="timeline-title">HSC</h4>
+				  <p><small class="text-muted"><i class="glyphicon glyphicon-hourglass"></i>2014-2016</small></p>
+				</div>
+				<div class="timeline-body">
+<p>Completed SSLC with 82% from ManuelMony Matric School</p>
+				</div>
+			  </div>
+			</li>
+			<li>
+			  <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+			  <div class="timeline-panel">
+				<div class="timeline-heading">
+				  <h4 class="timeline-title">BACHELOR DEGREE</h4>
+				  <p><small class="text-muted"><i class="glyphicon glyphicon-hourglass"></i>2016-2020</small></p>
+				</div>
+				<div class="timeline-body">
+<p>Completed my graduation in B.Tech Information Technology from KCG college of Technology</p>
+				</div>
+			</li>
+			
+		</ul>
+	</div>
+</section>
+	<!-- Edu end-->
+
+
+<!--container-->
 
 	<!-- Portfolio end -->
 
 
 	<!-- CallToAction start -->
 
-	<section class="calltoaction">
+	<!-- <section class="calltoaction">
 		<div class="container-fluid">
 
 			<div class="row">
@@ -224,16 +325,16 @@
 					<a href="#contact" class="btn btn-lg">Hire Me</a>
 				</div>
 
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
+			</div>
+		</div>
+	</section> -->
 
 	<!-- CallToAction end -->
 
 
 	<!-- Contact start -->
 
-	<section id="contact" class="pfblock">
+	<section id="contact" class="pfblock pfblock-gray">
 		<div class="row">
 
 			<div class="col-sm-6 col-sm-offset-3">
@@ -242,7 +343,7 @@
 					<h2 class="pfblock-title">Contact</h2>
 					<div class="pfblock-line"></div>
 					<div class="pfblock-subtitle">
-						I'm currently accepting new projects and would love to hear about yours. Please take a few minutes to tell me about it. After you introduce yourself and your project, I'll get it touch with you to schedule a time to chat.
+I'm actively looking for a Job Switch. I'm a Backend Developer who have 1+ years of experience in developing and Supporting various Backend Django applications also have some handson experience in AWS developer enviroment. Feel free to drop a message here or call me if you have a openning.
 					</div>
 				</div>
 
@@ -270,15 +371,14 @@
 				<div class="col-sm-12">
 
 					<ul class="social-links">
-						<li><a href="https://www.linkedin.com/in/vlad-moroshan-266229129?trk=nav_responsive_tab_profile" class="wow fadeInUp" data-wow-delay=".1s" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://github.com/VladislavMoroshan" class="wow fadeInUp" data-wow-delay=".2s" target="_blank"><i class="fa fa-github"></i></a></li>
-						<li><a href="mailto:vlad.moroshan@gmail.com" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-envelope"></i></a></li>
-						<li><a href="skype:moroshan777?chat" class="wow fadeInUp" data-wow-delay=".5s" target="_blank"><i class="fa fa fa-skype"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/ganeshmaddy56/" class="wow fadeInUp" data-wow-delay=".1s" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="mailto:ganeshmaddy354@gmail.com" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-envelope"></i></a></li>
+						<li><a href="https://mail.google.com/chat/u/0/#chat/dm/zZfhRYAAAAE" class="wow fadeInUp" data-wow-delay=".5s" target="_blank"><i class="fa fa fa-comment"></i></a></li>
 					</ul>
 
-					<p class="copyright"> Feel free to email me, or visit my GitHub and LinkedIn pages.</p>
+					<p class="copyright"> Feel free to email me, or visit my LinkedIn pages.</p>
 
-					<p class="heart">Made with <span class="fa fa-heart fa-2x animated pulse"></span> Ukraine 2017 ©</p>
+					<p class="heart">Made with <span class="fa fa-heart fa-2x animated pulse"></span> chennai 2022 ©</p>
 
 				</div>
 
