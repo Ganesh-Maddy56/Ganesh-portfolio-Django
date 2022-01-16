@@ -849,10 +849,11 @@ figure.effect-bubba:hover p {
 #myphoto {
 	filter: grayscale(0%);
 	margin-top: 2vh;
-	width: 200px;
-  height: 200px;
+	width: 250px;
+  	height: 250px;
   border-radius: 50%;
   overflow: hidden;
+  object-fit: cover;
   /* commented for demo
   float: left;
   margin-left: 125px;
