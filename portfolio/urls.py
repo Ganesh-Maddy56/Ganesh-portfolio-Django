@@ -15,8 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-
+admin.autodiscover()
 urlpatterns = [
-    url('', include('mainpage.urls')), 
-    url('admin/', admin.site.urls),
+    url(r'^', include('mainpage.urls')), 
+    url(r'^admin/', admin.site.urls),
 ]
