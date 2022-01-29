@@ -129,5 +129,5 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 EMAIL_USE_TLS = True 
 EMAIL_HOST ='smtp.gmail.com' 
 EMAIL_HOST_USER = 'ganeshsmart07@gmail.com'
-EMAIL_HOST_PASSWORD = 'Ackerman@56'
+EMAIL_HOST_PASSWORD = 'password'
 EMAIL_PORT = 587
